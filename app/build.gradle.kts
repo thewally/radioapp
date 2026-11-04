@@ -34,6 +34,11 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    lint {
+        // Bestaande bevindingen staan in de baseline; alleen nieuwe fouten laten de CI falen.
+        baseline = file("lint-baseline.xml")
+    }
 }
 
 dependencies {

@@ -1,0 +1,319 @@
+{
+  "stations": [
+    {
+      "key": "nporadio1",
+      "display_name": "NPO Radio 1",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/radio1-bb-mp3",
+      "media_id": "npo_radio1_live"
+    },
+{
+      "key": "nporadio2",
+      "display_name": "NPO Radio 2",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/radio2-bb-mp3",
+      "media_id": "npo_radio2_live"
+    },
+    {
+      "key": "npo3fm",
+      "display_name": "NPO 3FM",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/3fm-bb-mp3",
+      "media_id": "npo_3fm_live"
+    },
+    {
+      "key": "qmusic",
+      "display_name": "Qmusic",
+      "country": "nl",
+      "stream_url": "https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live_64.aac",
+      "media_id": "qmusic_live"
+    },
+    {
+      "key": "nl100",
+      "display_name": "100%NL",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/100PNL_AAC.aac",
+      "media_id": "nl100_live"
+    },
+    {
+      "key": "radio538",
+      "display_name": "Radio 538",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3",
+      "media_id": "radio538_live"
+    },
+    {
+      "key": "veronica",
+      "display_name": "Radio Veronica",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICA.mp3",
+      "media_id": "veronica_live"
+    },
+    {
+      "key": "radio10",
+      "display_name": "Radio 10",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3",
+      "media_id": "radio10_live"
+    },
+    {
+      "key": "nporadio5",
+      "display_name": "NPO Radio 5",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/radio5-bb-mp3",
+      "media_id": "npo_radio5_live"
+    },
+    {
+      "key": "slam",
+      "display_name": "SLAM!",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLAM_AAC.aac",
+      "media_id": "slam_live"
+    },
+    {
+      "key": "skyradio",
+      "display_name": "Sky Radio",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO.mp3",
+      "media_id": "skyradio_live"
+    },
+    {
+      "key": "bnr",
+      "display_name": "BNR Nieuwsradio",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BNR_NIEUWSRADIO.mp3",
+      "media_id": "bnr_live"
+    },
+    {
+      "key": "nporadio4",
+      "display_name": "NPO Klassiek",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/radio4-bb-mp3",
+      "media_id": "npo_klassiek_live"
+    },
+    {
+      "key": "funx",
+      "display_name": "NPO FunX",
+      "country": "nl",
+      "stream_url": "https://icecast.omroep.nl/funx-bb-mp3",
+      "media_id": "npo_funx_live"
+    },
+    {
+      "key": "joe",
+      "display_name": "Joe",
+      "country": "nl",
+      "stream_url": "https://stream.joe.nl/joe/mp3",
+      "media_id": "joe_live"
+    },
+    {
+      "key": "sublime",
+      "display_name": "Sublime",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUBLIME.mp3",
+      "media_id": "sublime_live"
+    },
+    {
+      "key": "kink",
+      "display_name": "KINK",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/KINK.mp3",
+      "media_id": "kink_live"
+    },
+    {
+      "key": "radiocontinu",
+      "display_name": "Radio Continu",
+      "country": "nl",
+      "stream_url": "https://stream.radiocontinu.nl/radio-continu",
+      "media_id": "radiocontinu_live"
+    },
+    {
+      "key": "grootnieuws",
+      "display_name": "Groot Nieuws Radio",
+      "country": "nl",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/GNR.mp3",
+      "media_id": "grootnieuws_live"
+    },
+    {
+      "key": "radiomaria",
+      "display_name": "Radio Maria",
+      "country": "nl",
+      "stream_url": "https://streamingp.shoutcast.com/radiomarianederland",
+      "media_id": "radiomaria_live"
+    },
+    {
+      "key": "studiobrussel",
+      "display_name": "Studio Brussel",
+      "country": "be",
+      "stream_url": "https://icecast.vrtcdn.be/stubru-high.mp3",
+      "media_id": "studiobrussel_live"
+    },
+    {
+      "key": "qmusicbe",
+      "display_name": "Qmusic (BE)",
+      "country": "be",
+      "stream_url": "https://icecast-qmusicbe-cdp.triple-it.nl/qmusic.aac",
+      "media_id": "qmusicbe_live"
+    },
+    {
+      "key": "mnm",
+      "display_name": "MNM",
+      "country": "be",
+      "stream_url": "https://icecast.vrtcdn.be/mnm-high.mp3",
+      "media_id": "mnm_live"
+    },
+    {
+      "key": "joebe",
+      "display_name": "Joe (BE)",
+      "country": "be",
+      "stream_url": "https://icecast-qmusicbe-cdp.triple-it.nl/joe.mp3",
+      "media_id": "joebe_live"
+    },
+    {
+      "key": "nostalgiebe",
+      "display_name": "Nostalgie (BE)",
+      "country": "be",
+      "stream_url": "https://stream.rcs.revma.com/5gd04cwptg0uv",
+      "media_id": "nostalgiebe_live"
+    },
+    {
+      "key": "nrj",
+      "display_name": "NRJ",
+      "country": "fr",
+      "stream_url": "https://scdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3",
+      "media_id": "nrj_live"
+    },
+    {
+      "key": "rtlfr",
+      "display_name": "RTL",
+      "country": "fr",
+      "stream_url": "https://icecast.rtl.fr/rtl-1-44-128",
+      "media_id": "rtlfr_live"
+    },
+    {
+      "key": "europe1",
+      "display_name": "Europe 1",
+      "country": "fr",
+      "stream_url": "https://stream.europe1.fr/europe1.aac",
+      "media_id": "europe1_live"
+    },
+    {
+      "key": "franceinter",
+      "display_name": "France Inter",
+      "country": "fr",
+      "stream_url": "https://icecast.radiofrance.fr/franceinter-hifi.aac",
+      "media_id": "franceinter_live"
+    },
+    {
+      "key": "skyrock",
+      "display_name": "Skyrock",
+      "country": "fr",
+      "stream_url": "https://icecast.skyrock.net/s/natio_mp3_128k",
+      "media_id": "skyrock_live"
+    },
+    {
+      "key": "antennebayern",
+      "display_name": "Antenne Bayern",
+      "country": "de",
+      "stream_url": "https://stream.antenne.de/antenne/stream/mp3",
+      "media_id": "antennebayern_live"
+    },
+    {
+      "key": "swr3",
+      "display_name": "SWR3",
+      "country": "de",
+      "stream_url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
+      "media_id": "swr3_live"
+    },
+    {
+      "key": "einslive",
+      "display_name": "1LIVE",
+      "country": "de",
+      "stream_url": "https://wdr-1live-live.icecastssl.wdr.de/wdr/1live/live/mp3/128/stream.mp3",
+      "media_id": "einslive_live"
+    },
+    {
+      "key": "bayern3",
+      "display_name": "Bayern 3",
+      "country": "de",
+      "stream_url": "https://dispatcher.rndfnk.com/br/br3/live/mp3/mid",
+      "media_id": "bayern3_live"
+    },
+    {
+      "key": "deutschlandfunk",
+      "display_name": "Deutschlandfunk",
+      "country": "de",
+      "stream_url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3",
+      "media_id": "deutschlandfunk_live"
+    },
+    {
+      "key": "oe3",
+      "display_name": "Hitradio Ö3",
+      "country": "at",
+      "stream_url": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+      "media_id": "oe3_live"
+    },
+    {
+      "key": "fm4",
+      "display_name": "FM4",
+      "country": "at",
+      "stream_url": "https://orf-live.ors-shoutcast.at/fm4-q2a",
+      "media_id": "fm4_live"
+    },
+    {
+      "key": "oe1",
+      "display_name": "Ö1",
+      "country": "at",
+      "stream_url": "https://orf-live.ors-shoutcast.at/oe1-q2a",
+      "media_id": "oe1_live"
+    },
+    {
+      "key": "arabella",
+      "display_name": "Radio Arabella",
+      "country": "at",
+      "stream_url": "https://frontend.streams.arabella.at/arabella-wien",
+      "media_id": "arabella_live"
+    },
+    {
+      "key": "loungefm",
+      "display_name": "Lounge FM",
+      "country": "at",
+      "stream_url": "https://s35.derstream.net/100austria.mp3",
+      "media_id": "loungefm_live"
+    },
+    {
+      "key": "rtl1025",
+      "display_name": "RTL 102.5",
+      "country": "it",
+      "stream_url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8",
+      "media_id": "rtl1025_live"
+    },
+    {
+      "key": "radio105",
+      "display_name": "Radio 105",
+      "country": "it",
+      "stream_url": "https://icecast.unitedradio.it/Radio105.mp3",
+      "media_id": "radio105_live"
+    },
+    {
+      "key": "virginit",
+      "display_name": "Virgin Radio Italy",
+      "country": "it",
+      "stream_url": "https://icecast.unitedradio.it/Virgin.mp3",
+      "media_id": "virginit_live"
+    },
+    {
+      "key": "rds",
+      "display_name": "RDS",
+      "country": "it",
+      "stream_url": "https://stream.rds.radio/audio/rds.stream_aac/chunklist.m3u8",
+      "media_id": "rds_live"
+    },
+    {
+      "key": "radiodeejay",
+      "display_name": "Radio Deejay",
+      "country": "it",
+      "stream_url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/radiodeejay/radiodeejay/master_ma.m3u8",
+      "media_id": "radiodeejay_live"
+    }
+  ]
+}

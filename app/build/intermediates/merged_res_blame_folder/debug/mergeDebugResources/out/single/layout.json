@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.arjenvdw.radioapp-mergeDebugResources-35:/layout/item_station.xml",
+        "source": "com.arjenvdw.radioapp-main-38:/layout/item_station.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.arjenvdw.radioapp-main-38:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_fr.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_fr.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_funx.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_funx.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_franceinter.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_franceinter.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_deutschlandfunk.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_deutschlandfunk.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_skyradio.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_skyradio.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_antennebayern.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_antennebayern.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_mnm.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_mnm.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nporadio2.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nporadio2.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_studiobrussel.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_studiobrussel.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nporadio5.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nporadio5.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_grootnieuws.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_grootnieuws.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_qmusicbe.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_qmusicbe.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_qmusic.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_qmusic.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_oe3.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_oe3.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/layout_item_station.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/layout/item_station.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_swr3.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_swr3.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_slam.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_slam.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_einslive.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_einslive.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radiocontinu.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radiocontinu.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_rds.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_rds.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radiodeejay.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radiodeejay.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nrj.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nrj.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_joe.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_joe.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/xml_shortcuts.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/xml/shortcuts.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radio105.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radio105.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_npo3fm.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_npo3fm.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radio10.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radio10.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_veronica.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_veronica.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_kink.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_kink.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_loungefm.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_loungefm.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_de.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_de.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_arabella.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_arabella.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_at.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_at.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_nl.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_nl.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_it.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_it.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_bayern3.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_bayern3.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_oe1.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_oe1.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_joebe.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_joebe.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_sublime.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_sublime.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radiomaria.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radiomaria.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nostalgiebe.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nostalgiebe.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_virginit.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_virginit.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_fm4.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_fm4.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nporadio1.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nporadio1.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_cflag_be.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_cflag_be.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_rtl1025.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_rtl1025.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/xml_automotive_app_desc.xml.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_europe1.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_europe1.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_bnr.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_bnr.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nl100.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nl100.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_skyrock.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_skyrock.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_rtlfr.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_rtlfr.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_nporadio4.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_nporadio4.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.arjenvdw.radioapp-debug-36:/drawable-nodpi_ic_logo_radio538.png.flat",
+        "source": "com.arjenvdw.radioapp-main-38:/drawable-nodpi/ic_logo_radio538.png"
+    }
+]

@@ -43,3 +43,10 @@ ANDROID_HOME=/Users/arjen/Library/Android/sdk ./gradlew :app:installDebug
 ```
 
 The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
+
+## CI
+
+Every pull request and every push to `main` runs
+`.github/workflows/ci.yml` (check name: `build`): `./gradlew :app:assembleDebug
+:app:lintDebug` on JDK 17. The lint report is uploaded as the artifact
+`lint-results-debug`. No secrets or `local.properties` are needed.

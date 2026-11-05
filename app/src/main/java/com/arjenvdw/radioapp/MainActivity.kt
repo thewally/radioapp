@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.OptIn
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.media3.common.MediaItem
 import androidx.media3.common.Player
 import androidx.media3.common.util.UnstableApi
@@ -32,6 +34,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // targetSdk 35+ forces edge-to-edge: keep the content out of the system bars
+        // (and the display cutout / keyboard) so the layout looks as before.
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, windowInsets ->
+            val insets = windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            view.setPadding(insets.left, insets.top, insets.right, insets.bottom)
+            WindowInsetsCompat.CONSUMED
+        }
 
         // Open on the country of the last played station (default NL).
         val last = Stations.byMediaId(LastStation.load(this))
@@ -101,7 +113,7 @@ class MainActivity : AppCompatActivity() {
         // colorPrimary exists on the MaterialComponents (M2) theme (colorOutline /
         // colorSurfaceVariant are Material3-only and would crash here). The circular
         // flag fills the button; the selected one gets a colored ring on top.
-        val primary = MaterialColors.getColor(binding.root, com.google.android.material.R.attr.colorPrimary)
+        val primary = MaterialColors.getColor(binding.root, androidx.appcompat.R.attr.colorPrimary)
         for ((code, view) in countryViews) {
             view.foreground = if (code == cc) {
                 GradientDrawable().apply {

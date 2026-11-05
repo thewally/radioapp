@@ -444,9 +444,10 @@ class PlaybackService : MediaLibraryService() {
                     .addAllCommands()
                     .remove(Player.COMMAND_GET_TIMELINE)
                     .build()
-                return MediaSession.ConnectionResult.AcceptedResultBuilder(session)
-                    .setAvailablePlayerCommands(playerCommands)
-                    .build()
+                return MediaSession.ConnectionResult.accept(
+                    MediaSession.ConnectionResult.DEFAULT_SESSION_AND_LIBRARY_COMMANDS,
+                    playerCommands
+                )
             }
             return super.onConnect(session, controller)
         }
@@ -551,7 +552,8 @@ class PlaybackService : MediaLibraryService() {
 
         override fun onPlaybackResumption(
             mediaSession: MediaSession,
-            controller: MediaSession.ControllerInfo
+            controller: MediaSession.ControllerInfo,
+            isForPlayback: Boolean
         ): ListenableFuture<MediaSession.MediaItemsWithStartPosition> {
             val station = Stations.byMediaId(LastStation.load(this@PlaybackService))
                 ?: Stations.ALL.first()

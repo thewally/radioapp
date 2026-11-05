@@ -56,7 +56,7 @@ dependencies {
     // when Android Auto is actually projecting, not on any Bluetooth connect.
     implementation("androidx.car.app:app:1.7.0")
 
-    val media3Version = "1.4.1"
+    val media3Version = "1.11.1"
     implementation("androidx.media3:media3-exoplayer:$media3Version")
     implementation("androidx.media3:media3-exoplayer-hls:$media3Version")
     implementation("androidx.media3:media3-session:$media3Version")

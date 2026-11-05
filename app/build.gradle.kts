@@ -1,8 +1,5 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 plugins {
     id("com.android.application")
-    id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -36,12 +33,6 @@ android {
     lint {
         // Bestaande bevindingen staan in de baseline; alleen nieuwe fouten laten de CI falen.
         baseline = file("lint-baseline.xml")
-    }
-}
-
-kotlin {
-    compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_17)
     }
 }
 

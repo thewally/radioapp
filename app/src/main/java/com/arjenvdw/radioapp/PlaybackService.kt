@@ -15,6 +15,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.media3.common.AudioAttributes
 import androidx.media3.common.C
+import androidx.media3.common.ForwardingPlayer
 import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Metadata
@@ -109,6 +110,12 @@ class PlaybackService : MediaLibraryService() {
             .build()
 
         player.addListener(object : Player.Listener {
+            // Remember which station was paused, so the next play() can rejoin
+            // the live broadcast instead of resuming from the buffer.
+            override fun onPlayWhenReadyChanged(playWhenReady: Boolean, reason: Int) {
+                pausedMediaId = if (playWhenReady) null else player.currentMediaItem?.mediaId
+            }
+
             override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
                 mediaItem?.mediaId?.let { LastStation.save(this@PlaybackService, it) }
                 // New station: any external (polled) source should refresh
@@ -148,7 +155,7 @@ class PlaybackService : MediaLibraryService() {
             )
         }
 
-        mediaSession = MediaLibrarySession.Builder(this, player, LibraryCallback())
+        mediaSession = MediaLibrarySession.Builder(this, livePlayer(player), LibraryCallback())
             .apply { sessionActivityPendingIntent?.let(::setSessionActivity) }
             .build()
 
@@ -157,6 +164,45 @@ class PlaybackService : MediaLibraryService() {
         // audio. Clients (the app UI, Auto, Assistant) trigger play.
         val initial = Stations.byMediaId(LastStation.load(this)) ?: Stations.ALL.first()
         player.setMediaItem(mediaItemFor(initial))
+        player.prepare()
+    }
+
+    // MediaId of the station that was paused (null while playing or when never
+    // paused). Set by the player listener, consumed by [reloadIfPausedStation].
+    private var pausedMediaId: String? = null
+
+    /**
+     * Wraps [wrapped] so that every play command from a controller (app, media
+     * notification, Bluetooth buttons, Android Auto) rejoins the live stream
+     * after a pause. The session gets this wrapper; the service keeps using the
+     * ExoPlayer directly for its own (autoplay, first start) paths.
+     */
+    private fun livePlayer(wrapped: ExoPlayer): Player = object : ForwardingPlayer(wrapped) {
+        override fun play() {
+            reloadIfPausedStation()
+            super.play()
+        }
+
+        override fun setPlayWhenReady(playWhenReady: Boolean) {
+            if (playWhenReady) reloadIfPausedStation()
+            super.setPlayWhenReady(playWhenReady)
+        }
+    }
+
+    /**
+     * If the current station was paused, reload it so playback starts at the
+     * live edge: stop() drops the buffer and connection (the media item stays),
+     * seekToDefaultPosition() jumps to the live edge for HLS, prepare()
+     * reconnects. The marker is cleared first, so play() and setPlayWhenReady()
+     * never reload twice for one press. A different station, or a first start,
+     * has no marker and is untouched.
+     */
+    private fun reloadIfPausedStation() {
+        val paused = pausedMediaId ?: return
+        pausedMediaId = null
+        if (player.currentMediaItem?.mediaId != paused) return
+        player.stop()
+        player.seekToDefaultPosition()
         player.prepare()
     }
 

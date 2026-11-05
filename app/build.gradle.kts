@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.arjenvdw.radioapp"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.arjenvdw.radioapp"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
     }
@@ -46,15 +46,15 @@ kotlin {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.core:core-ktx:1.18.0")
+    implementation("androidx.appcompat:appcompat:1.8.0")
+    implementation("com.google.android.material:material:1.14.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.2")
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
 
     // Android Auto connection state (CarConnection) — used to auto-start only
     // when Android Auto is actually projecting, not on any Bluetooth connect.
-    implementation("androidx.car.app:app:1.4.0")
+    implementation("androidx.car.app:app:1.7.0")
 
     val media3Version = "1.4.1"
     implementation("androidx.media3:media3-exoplayer:$media3Version")
